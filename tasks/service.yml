@@ -1,8 +1,8 @@
 - name: ensure apache service is start
-    service:
-      name: apache2
-      state: started
-      enabled: yes
-    tags:
-      - service
-      - web
+  service:
+    name: apache2
+    state: started
+    enabled: yes
+  tags:
+    - service
+    - web
