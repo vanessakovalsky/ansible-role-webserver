@@ -1,5 +1,5 @@
 ---
 # vars file for webserver-blog
 
-app_directory : files/app
-db_config : files/db_config.php
+app_directory : /files/app
+db_config : /files/db_config.php
